@@ -1,0 +1,140 @@
+/* Body specification */
+body{
+  margin: 0;
+}
+
+/* Hero Image specification */
+.hero_image {
+  font-size: 30px;
+  text-align: right;
+  margin-top: 5px;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  background-image: url(../img/IT_Solutions_Angry_1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+}
+
+/* Page logo specification */
+#logo {
+  width: 231px;
+  height: 108px;
+}
+
+/* Navigation lists class specification */
+li.nav_list {
+  padding: 15px;
+  margin-right: 2px;
+  margin-left:2px; 
+  display: inline;
+  text-decoration: none;
+}
+
+/* Navigation list id specification */
+#nav{
+  float: right;
+  margin-top:40px;
+}
+
+/* Navigation list anchor */
+ul a {
+  text-decoration: none;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Navigation list hover */
+ul a:hover{
+  color: sandybrown;
+}
+
+/* Header */
+.header{
+  background: #D3D3D3;
+  height:108px;
+  width: 100%; 
+}
+
+/* Footer */
+footer{
+  bottom: 0;
+  background-color: black;
+  color: aliceblue;
+  height:80px;
+  width: 100%;
+  padding-top: 20px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Privacy Policy specification */
+.privacy{
+  padding-top: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+/* Social Media links specification */
+.contacts{
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+/* Aim specification */
+#aim{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Grid specification */
+.grid_4, .grid_6, grid_2{
+  padding-top:10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Customer image specification */
+#customerimg{
+  height:130px;
+}
+
+/* List of customers specification */
+.customerslist{
+  width:100px;
+  padding-right: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+/* About Us Page header */
+.AboutUsHeader{
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Social Media links specification */
+.ext_links{
+  text-decoration: none;
+  color:gray;
+  padding-right: 20px;
+}
+
+/* About Us page paragraph */
+.AboutUsPara{
+  padding-left: 231px;
+  text-align: center;
+  padding-right: 231px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* About Us Hero Image */
+#AboutUsImage{
+  margin-top:10px;
+  width:100%;
+  height: 400px;
+}

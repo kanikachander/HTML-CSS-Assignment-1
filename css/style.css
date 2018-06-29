@@ -23,7 +23,7 @@ body{
 }
 
 /* Navigation lists class specification */
-li.nav_list {
+.nav_list {
   padding: 15px;
   margin-right: 2px;
   margin-left:2px; 

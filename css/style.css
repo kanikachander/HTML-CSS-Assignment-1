@@ -35,6 +35,7 @@ body{
 #nav{
   float: right;
   margin-top:40px;
+  text-transform: uppercase;
 }
 
 /* Navigation list anchor */
@@ -96,6 +97,10 @@ footer{
   padding-bottom: 10px;
   text-align: center;
   font-family: 'PT Sans', sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
 }
 
 /* Customer image specification */

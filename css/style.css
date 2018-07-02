@@ -1,5 +1,5 @@
 /* Body specification */
-body{
+body {
   margin: 0;
   font-family: 'PT Sans', sans-serif;
 }
@@ -40,7 +40,7 @@ body{
 }
 
 /* Navigation list id specification */
-#nav{
+#nav {
   float: right;
   margin-top:40px;
   text-transform: uppercase;
@@ -54,19 +54,19 @@ ul a {
 }
 
 /* Navigation list hover */
-ul a:hover{
+ul a:hover {
   color: sandybrown;
 }
 
 /* Header */
-.header{
+.header {
   background: #D3D3D3;
   height:108px;
   width: 100%;
 }
 
 /* Footer */
-footer{
+footer {
   bottom: 0;
   background-color: black;
   color: aliceblue;
@@ -78,20 +78,20 @@ footer{
 }
 
 /* Privacy Policy specification */
-.privacy{
+.privacy {
   padding-top: 10px;
   text-decoration: none;
   color: gray;
 }
 
 /* Social Media links specification */
-.contacts{
+.contacts {
   text-decoration: none;
   padding-top: 10px;
 }
 
 /* Aim specification */
-#aim{
+#aim {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -100,7 +100,7 @@ footer{
 }
 
 /* Grid specification */
-.grid_4, .grid_6, grid_2{
+.grid_4, .grid_6, grid_2 {
   padding-top:10px;
   padding-bottom: 10px;
   text-align: center;
@@ -112,12 +112,12 @@ h2 {
 }
 
 /* Customer image specification */
-#customerimg{
+#customerimg {
   height:130px;
 }
 
 /* List of customers specification */
-.customerslist{
+.customerslist {
   width:100px;
   padding-right: 20px;
   margin-top: 20px;
@@ -125,20 +125,20 @@ h2 {
 }
 
 /* About Us Page header */
-.AboutUsHeader{
+.AboutUsHeader {
   text-align: center;
   font-family: 'PT Sans', sans-serif;
 }
 
 /* Social Media links specification */
-.ext_links{
+.ext_links {
   text-decoration: none;
   color:gray;
   padding-right: 20px;
 }
 
 /* About Us page paragraph */
-.AboutUsPara{
+.AboutUsPara {
   padding-left: 231px;
   text-align: center;
   padding-right: 231px;
@@ -146,7 +146,7 @@ h2 {
 }
 
 /* About Us Hero Image */
-#AboutUsImage{
+#AboutUsImage {
   margin-top:10px;
   width:100%;
   height: 400px;

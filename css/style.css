@@ -1,19 +1,27 @@
 /* Body specification */
 body{
   margin: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* Hero Image specification */
 .hero_image {
-  font-size: 30px;
-  text-align: right;
-  margin-top: 5px;
-  font-family: 'PT Sans', sans-serif;
-  color: black;
   background-image: url(../img/IT_Solutions_Angry_1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
+  text-align: right;
+  padding-right: 20px;
+}
+
+#para {
+  width: 350px;
+  word-wrap: break-word;
+  font-size: 30px;
+  margin-top: 5px;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  float: right;
 }
 
 /* Page logo specification */

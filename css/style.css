@@ -6,7 +6,7 @@ body {
 
 /* Hero Image specification */
 .hero_image {
-  background-image: url(../img/IT_Solutions_Angry_1.jpg);
+  background-image: url(../img/hero_img_home.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;

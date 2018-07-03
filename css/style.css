@@ -4,6 +4,47 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
+/* Header css */
+#logo {
+  height:70px;
+}
+
+.nav_list {
+  padding: 15px;
+  margin-right: 2px;
+  margin-left:2px; 
+  display: inline;
+  text-decoration: none;
+}
+
+#nav {
+  float: right;
+  margin-top:20px;
+  text-transform: uppercase;
+}
+
+ul a {
+  text-decoration: none;
+  color: black;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul a:hover {
+  color: sandybrown;
+}
+
+.header {
+  background: #D3D3D3;
+  height:70px;
+  width: 100%;
+  top: 0;
+  position: sticky;
+}
+
 /* Hero Image specification */
 .hero_image {
   background-image: url(../img/hero_img_home.jpg);
@@ -24,48 +65,36 @@ body {
   float: right;
 }
 
-/* Page logo specification */
-#logo {
-  width: 231px;
-  height: 108px;
-}
+/* Content css */
 
-/* Navigation lists class specification */
-.nav_list {
-  padding: 15px;
-  margin-right: 2px;
-  margin-left:2px; 
-  display: inline;
-  text-decoration: none;
-}
-
-/* Navigation list id specification */
-#nav {
-  float: right;
-  margin-top:40px;
-  text-transform: uppercase;
-}
-
-/* Navigation list anchor */
-ul a {
-  text-decoration: none;
-  color: black;
+#aim {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 30px;
   font-family: 'PT Sans', sans-serif;
 }
 
-/* Navigation list hover */
-ul a:hover {
-  color: sandybrown;
+.grid_4, .grid_6, grid_2 {
+  padding-top:10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
 }
 
-/* Header */
-.header {
-  background: #D3D3D3;
-  height:108px;
-  width: 100%;
+#customerimg {
+  height:130px;
 }
 
-/* Footer */
+.customerslist {
+  width:100px;
+  padding-right: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+
+/* Footer css */
 footer {
   bottom: 0;
   background-color: black;
@@ -77,67 +106,29 @@ footer {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* Privacy Policy specification */
-.privacy {
-  padding-top: 10px;
-  text-decoration: none;
-  color: gray;
-}
-
-/* Social Media links specification */
 .contacts {
   text-decoration: none;
   padding-top: 10px;
 }
 
-/* Aim specification */
-#aim {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-size: 30px;
-  font-family: 'PT Sans', sans-serif;
-}
-
-/* Grid specification */
-.grid_4, .grid_6, grid_2 {
-  padding-top:10px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-family: 'PT Sans', sans-serif;
-}
-
-h2 {
-  text-transform: uppercase;
-}
-
-/* Customer image specification */
-#customerimg {
-  height:130px;
-}
-
-/* List of customers specification */
-.customerslist {
-  width:100px;
-  padding-right: 20px;
-  margin-top: 20px;
-  padding-top: 10px;
-}
-
-/* About Us Page header */
-.aboutusheader {
-  text-align: center;
-  font-family: 'PT Sans', sans-serif;
-}
-
-/* Social Media links specification */
 .ext_links {
   text-decoration: none;
   color:gray;
   padding-right: 20px;
 }
 
-/* About Us page paragraph */
+.privacy {
+  padding-top: 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+/* About Us page css */
+.aboutusheader {
+  text-align: center;
+  font-family: 'PT Sans', sans-serif;
+}
+
 .aboutuspara {
   padding-left: 231px;
   text-align: center;
@@ -145,9 +136,42 @@ h2 {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* About Us Hero Image */
 #aboutusimage {
   margin-top:10px;
   width:100%;
   height: 400px;
+}
+
+/* Services page css */
+#heading_services {
+  text-align:center;
+}
+
+.services_img {
+  width: 84%;
+  margin:0;
+  padding: 0;
+}
+
+.services_list {
+  font-size: 14px;
+  color: #737E86;
+}
+
+ul {
+  list-style-type: circle;
+  text-align: justify;
+}
+
+h3 {
+  margin: 0 0 0 15px;
+}
+
+h5 {
+  margin-top: 0;
+}
+
+.grid_4, .grid_8 {
+  padding:0;
+  margin-bottom: 40px;
 }
